@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    min-height: 50vh;
+    background-image: linear-gradient(to right, rgba(0, 2, 2, 0.965), rgba(0,181,204));
+    width: 100%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    background: rgba(0, 0, 0, 0.736);
+}
+.nav-links{
+    display: flex;
+}
+.logo{
+    width: 100px;
+    margin-right: 25px;
+}
+
+.nav-links ul{
+    list-style: none;
+}
+.nav-links ul li{
+    display: inline-block;
+    margin: 15px 10px;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+form input{
+    background: #fff;
+    outline: none;
+    border: none;
+    margin: 10px;
+}
+.search-btn{
+    background: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+button img{
+    width: 15px;
+    align-self: center;
+    
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgba(0,181,204);
+    border: none;
+    padding: 7px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+::placeholder{
+    color: black;
+}
+.user-info{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 4rem;
+    margin: 15px 20px;
+}
+.user-info a{
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+}
+.sign-in{
+    border: 1px solid #fff;
+    padding: 7px 20px;
+    background: rgba(45, 189, 45, 0.922);
+    border: none;
+    border-radius: 2px;
+}
+
+
+/* text-box */
+.text-box{
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+.col{
+    flex-basis: 40%;
+    padding-left: 30px;
+}
+.col h1{
+    font-size: 45px;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    padding-top: 9rem;
+    padding-left: 2%;
+}
+.text-box p{
+    position: absolute;
+    top: 0;
+    font-size: 15px;
+    padding-top: 16%;
+    padding-left: 26px;
+}
+span{
+    color: greenyellow;
+    font-size: 15px;
+}
+
+.text-box a{
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    background: rgba(45, 189, 45, 0.922);
+    border: none;
+    border-radius: 2px;
+}  
+.box-container{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 100px;
+    height: 90px;
+    background: #fff;
+    margin: 5px 7px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.box img{
+    width: 35px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* -------------sec2------------ */
+.sec2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 2rem;
+}
+.sec2 h1{
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.col-sec1::after{
+    content: '';
+    background: rgba(0,181,204);
+    width: 80%;
+    height: 5px;
+    border-radius: 2px;
+    margin: auto;
+    display: block;
+} 
+.sec1-col{
+    width: 100%;
+    display: flex;
+    background: rgba(119, 119, 119, 0.247);
+    height: 43.444vh;
+}
+.h1-text1{
+    margin: auto;
+    padding: auto;
+}
+.sec1-col img{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    border-radius: 19px;
+    cursor: pointer;
+}
+.layer{
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: auto;
+} 
+.cer{
+    background: #000;
+    color: #fff;
+    padding: 4px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.busi{
+    background: orange;
+    color: #fff;
+    padding: 5px 5px;
+    margin: 5px; 
+    border-radius: 5px;
+}
+.heal{
+    background: red;
+    color: #fff;
+    padding: 5px 5px;
+    margin: 5px; 
+    border-radius: 5px;
+}
+.human{
+    background: rgba(153, 221, 52, 0.987);
+    color: #fff;
+    padding: 5px 5px;
+    margin: 5px; 
+    border-radius: 5px;
+}
+.sci{
+    background: black;
+    color: #fff;
+    padding: 5px 5px;
+    margin: 5px; 
+    border-radius: 5px;
+}
+
+
+
+@media (max-width: 700px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
